@@ -219,6 +219,12 @@
             <div class="card-header bg-primary text-white">
               <i class="fa fa-table"></i>
               Recorded Sales
+              <a href="#" class="text-white" data-toggle="modal" data-target="#addSaleModal">
+                <span class="float-right">
+                  <i class="fa fa-plus"></i>
+                  Add New Entry
+                </span>
+              </a>
             </div>
             <div class="card-body">
               <div class="table-responsive">
@@ -235,7 +241,7 @@
                   </thead>
                   <tfoot>
                     <tr>
-                      <th>PROID#</th>
+                      <th>INVOICE-ID</th>
                       <th>Product</th>
                       <th>In-Stock</th>
                       <th>Price</th>
@@ -448,6 +454,31 @@
             <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
             <a class="btn btn-primary" href="login.html">Logout</a>
           </div>
+        </div>
+      </div>
+    </div>
+    <!-- Add Sale Modal-->
+    <div class="modal fade" id="addSaleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Add New Sale</h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <form class="">
+            <div class="modal-body">
+              <div class="form-group">
+                <label for="">Product Name</label>
+                <input type="text" class="form-control" name="" value="" placeholder="Enter product name here...">
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+              <a class="btn btn-primary" href="login.html">Add Sale</a>
+            </div>
+          </form>
         </div>
       </div>
     </div>
