@@ -1,4 +1,5 @@
 # RC-PoS
 ```php
-$this->extends theme.[StartBootstrapPoint](https://github.com/BlackrockDigital/startbootstrap-sb-admin)
+// @author https://github.com/BlackrockDigital
+$this->extends theme.(startbootstrap-sb-admin);
 ```
