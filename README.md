@@ -1,2 +1,2 @@
 # RC-PoS
-Point Of Sale Software Design
+*```php $this->extends theme.[StartBootstrapPoint](https://github.com/BlackrockDigital/startbootstrap-sb-admin) ```*
