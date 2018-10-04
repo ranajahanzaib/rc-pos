@@ -239,7 +239,7 @@
       </div>
       <!-- Add Sale Modal-->
       <div class="modal fade" id="addSaleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header bg-primary text-white">
               <h5 class="modal-title" id="exampleModalLabel">
@@ -254,7 +254,7 @@
               <div class="modal-body">
                 <div class="form-group">
                   <label>Select Product</label>
-                  <select class="form-control" required>
+                  <select class="form-control text-primary" required>
                     <option disabled selected><sub>Please select a product</sub></option>
                     <option disabled><sub>Speakers &amp; MICs</sub></option>
                     <option>Audionic MIC AM-20</option>
@@ -299,6 +299,201 @@
               <div class="modal-footer">
                 <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
                 <input type="submit" class="btn btn-primary" value="Add Sale">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Add Product Modal-->
+      <div class="modal fade" id="addProductModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+              <h5 class="modal-title" id="exampleModalLabel">
+                <i class="fa fa-tag"></i>
+                Add New Product
+              </h5>
+              <button class="close text-white" type="button" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <form class="">
+              <div class="modal-body">
+                <div class="form-group">
+                  <label>Product Type</label>
+                  <select class="form-control text-primary" required>
+                    <option disabled selected><sub>Please select a product type</sub></option>
+                    <option>Speakers</option>
+                    <option>Card Readers</option>
+                    <option>Headphones & MICs</option>
+                    <option>Mousepads</option>
+                    <option>Mice &amp; Pointing Devices</option>
+                    <option>Display Monitors</option>
+                    <option>Keyboards</option>
+                    <option>Cables & Chargers</option>
+                    <option>Power Supplies</option>
+                  </select>
+                  <small class="float-right">Product type not listed here? <a href="#">Add new</a> </small>
+                </div>
+                <div class="form-group">
+                  <label>Product Vendor</label>
+                  <select class="form-control text-primary" required>
+                    <option disabled selected><sub>Please select a product vendor/brand</sub></option>
+                    <option>Audionic</option>
+                    <option>DELL</option>
+                    <option>HP</option>
+                    <option>Samsung</option>
+                    <option>AMB</option>
+                    <option>Nokia</option>
+                    <option>Razer</option>
+                    <option>MSI</option>
+                  </select>
+                  <small class="float-right">Product vendor not listed here? <a href="#">Add new</a> </small>
+                </div>
+                <div class="form-group">
+                  <label>Product Dealer</label>
+                  <select class="form-control text-primary" required>
+                    <option disabled selected><sub>Please select a product dealer</sub></option>
+                    <option>Haider Abbas</option>
+                    <option>Muhammad Faisal</option>
+                    <option>Nouman Aslam</option>
+                    <option>Anees Ahmad Khan</option>
+                    <option>Waleed Ahmad</option>
+                    <option>Abdul Wahid</option>
+                  </select>
+                  <small class="float-right">Product vendor not listed here? <a href="#">Add new</a> </small>
+                </div>
+                <div class="form-group">
+                  <label for="">Product Name</label>
+                  <input type="text" class="form-control" name="" value="" placeholder="Enter product name..." required>
+                  <small class="text-muted">Be more specific with product names. Make sure its unique.</small>
+                </div>
+                <div class="form-group">
+                  <label for="">Product Cost</label>
+                  <input type="number" class="form-control" name="" value="" placeholder="Enter price at which this product is purchased at..." required>
+                  <small class="text-muted">Adding original price helps you calculate profit by this product.</small>
+                </div>
+                <div class="form-group">
+                  <label for="">Description <small class="text-muted">(Optional)</small></label>
+                  <textarea name="name" class="form-control" rows="8" cols="80" placeholder="Add some note or description about this product..."></textarea>
+                </div>
+                <small class="text-muted"><em>Please double check information before submitting.</em></small>
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                <input type="submit" class="btn btn-primary" value="Add Product">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Add Product Type-->
+      <div class="modal fade" id="addProductTypeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+              <h5 class="modal-title" id="exampleModalLabel">
+                <i class="fa fa-tags"></i>
+                Add Product Type
+              </h5>
+              <button class="close text-white" type="button" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <form class="">
+              <div class="modal-body">
+                <div class="form-group">
+                  <label for="">Product Type</label>
+                  <input type="text" class="form-control" name="" value="" placeholder="Enter product type..." required>
+                  <small class="text-muted">Example: Mousepads, Headphones or Keyboards etc</small>
+                </div>
+                <div class="form-group">
+                  <label for="">Description <small class="text-muted">(Optional)</small></label>
+                  <textarea name="name" class="form-control" rows="8" cols="80" placeholder="Add some note or description about this product type..."></textarea>
+                </div>
+                <small class="text-muted"><em>Please double check information before submitting.</em></small>
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                <input type="submit" class="btn btn-primary" value="Add Product Type">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Add Product Vendor-->
+      <div class="modal fade" id="addProductVendorModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+              <h5 class="modal-title" id="exampleModalLabel">
+                <i class="fa fa-industry"></i>
+                Add Product Vendor
+              </h5>
+              <button class="close text-white" type="button" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <form class="">
+              <div class="modal-body">
+                <div class="form-group">
+                  <label for="">Product Vendor</label>
+                  <input type="text" class="form-control" name="" value="" placeholder="Enter vendor/brand name here..." required>
+                  <small class="text-muted">Example: Nokia, AMB or MSI etc</small>
+                </div>
+                <div class="form-group">
+                  <label for="">Description <small class="text-muted">(Optional)</small></label>
+                  <textarea name="name" class="form-control" rows="8" cols="80" placeholder="Add some note or description about this vendor..."></textarea>
+                </div>
+                <small class="text-muted"><em>Please double check information before submitting.</em></small>
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                <input type="submit" class="btn btn-primary" value="Add Vendor">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Add Product Dealer -->
+      <div class="modal fade" id="addProductDealerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+              <h5 class="modal-title" id="exampleModalLabel">
+                <i class="fa fa-user"></i>
+                Add Products Dealer
+              </h5>
+              <button class="close text-white" type="button" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <form class="">
+              <div class="modal-body">
+                <div class="form-group">
+                  <label for="">Dealer Name</label>
+                  <input type="text" class="form-control" name="" value="" placeholder="Enter dealer's name here..." required>
+                  <small class="text-muted">Example: Anees Ahmad, Faisal Hayat or Shahzaib Khan etc</small>
+                </div>
+                <div class="form-group">
+                  <label for="">Phone Number</label>
+                  <input type="text" class="form-control" name="" value="" placeholder="Enter dealer's phone number here...">
+                  <small class="text-muted">Example: 555-665-123</small>
+                </div>
+                <div class="form-group">
+                  <label for="">Email Address</label>
+                  <input type="email" class="form-control" name="" value="" placeholder="Enter dealer's email here...">
+                  <small class="text-muted">Example: ahmadanees02@gmail.com</small>
+                </div>
+                <div class="form-group">
+                  <label for="">Description <small class="text-muted">(Optional)</small></label>
+                  <textarea name="name" class="form-control" rows="8" cols="80" placeholder="Add some note or description about this vendor..."></textarea>
+                </div>
+                <small class="text-muted"><em>Please double check information before submitting.</em></small>
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                <input type="submit" class="btn btn-primary" value="Add Vendor">
               </div>
             </form>
           </div>
