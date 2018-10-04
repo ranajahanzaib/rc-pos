@@ -27,6 +27,59 @@ This software is licensed under the MIT License. [Learn more](https://github.com
 
 ## Changelog
 
+### 0.9.300
+* Separate Pages for Reports
+* Added Inventory Reports
+* Design Improvements
+
+### 0.9.200
+* Design Improvements
+* Multiple Modals
+
+### 0.9.100
+* Improved Sales Reports
+* Design Improvements
+
+### 0.8.300
+* Now you can add Product Dealers
+* Design Improvements
+
+### 0.7.300
+* Now you can add Product Vendors
+* Design Improvements
+
+### 0.6.300
+* Added Separate Retail Dashboard for better reports
+* Design Improvements
+
+### 0.6.200
+* Design Improvements
+
+### 0.6.100
+* Added Payment Reports
+* Design Improvements
+
+### 0.5.300
+* Now you can use Multiple Modals Simultaneously
+* Added More Navigation Items to list
+
+### 0.4.300
+* Modals Design Improvements
+* Dropdowns Menus Design Improvements
+
+
+### 0.4.100
+* Added Create Dropdown
+
+### 0.3.300
+* Added 4 more Modals
+
+### 0.2.300
+* Added 3 more Modals
+
+### 0.2.200
+* Added 2 Extra Modals
 
 ### 0.1.300
 * Added Modals
+* Basic Template Designed
