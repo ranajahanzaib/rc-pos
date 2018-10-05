@@ -27,6 +27,13 @@ This software is licensed under the MIT License. [Learn more](https://github.com
 
 ## Changelog
 
+## 1.0
+* You can Add product Vendors & product Brands
+* Fixed Navbar Notification Icons
+* Fixed Modals targets
+* Slight Design Improvements
+* Add More Pages to src/
+
 ### 0.9.300
 * Separate Pages for Reports
 * Added Inventory Reports
