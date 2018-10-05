@@ -39,8 +39,8 @@
             <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addProductModal"> <i class="fa fa-tag"></i> New Product</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addProductTypeModal"> <i class="fa fa-tags"></i> New Product Type</a>
-            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addProductDealerModal"> <i class="fa fa-user"></i> New Product Dealer</a>
-            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addProductVendorModal"> <i class="fa fa-industry"></i> New Product Vendor</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addProductDealerModal"> <i class="fa fa-user"></i> New Product Vendor</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addProductBrandModal"> <i class="fa fa-industry"></i> New Product Brand</a>
           </div>
         </li>
         <li class="nav-item dropdown no-arrow ml-3">
@@ -117,14 +117,14 @@
             <span>Add New Product</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="product-vendors.html">
+          <a class="nav-link" href="product-brands.html">
             <i class="fa fa-fw fa-industry"></i>
-            <span>Product Vendors</span></a>
+            <span>Product Brands</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="product-dealers.html">
+          <a class="nav-link" href="product-vendors.html">
             <i class="fa fa-fw fa-users"></i>
-            <span>Product Dealers</span></a>
+            <span>Product Vendors</span></a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -143,9 +143,9 @@
             <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addProductTypeModal"> <i class="fa fa-plus"></i> Add New Type</a>
             <a class="dropdown-item" href="product-types.html"> <i class="fa fa-tags"></i> Product Types</a>
             <div class="dropdown-divider"></div>
-            <h6 class="dropdown-header">Dealers &amp; Vendors</h6>
+            <h6 class="dropdown-header">Dealers &amp; Brands</h6>
             <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addProductDealerModal"> <i class="fa fa-user"></i> Add New Dealer</a>
-            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addProductVendorModal"> <i class="fa fa-industry"></i> Add New Vendor</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addProductBrandModal"> <i class="fa fa-industry"></i> Add New Brand</a>
           </div>
         </li>
         <li class="nav-item">
@@ -324,9 +324,9 @@
                 <small class="float-right">Product type not listed here? <a href="#"data-toggle="modal" data-target="#addProductTypeModal">Add new</a> </small>
               </div>
               <div class="form-group">
-                <label>Product Vendor</label>
+                <label>Product Brand</label>
                 <select class="form-control text-primary" required>
-                  <option disabled selected><sub>Please select a product vendor/brand</sub></option>
+                  <option disabled selected><sub>Please select a product brand</sub></option>
                   <option>Audionic</option>
                   <option>DELL</option>
                   <option>HP</option>
@@ -336,12 +336,12 @@
                   <option>Razer</option>
                   <option>MSI</option>
                 </select>
-                <small class="float-right">Product vendor not listed here? <a href="#"data-toggle="modal" data-target="#addProductVendorModal">Add new</a> </small>
+                <small class="float-right">Products brand not listed here? <a href="#"data-toggle="modal" data-target="#addProductBrandModal">Add new</a> </small>
               </div>
               <div class="form-group">
-                <label>Product Dealer</label>
+                <label>Product Vendor</label>
                 <select class="form-control text-primary" required>
-                  <option disabled selected><sub>Please select a product dealer</sub></option>
+                  <option disabled selected><sub>Please select a product vendor</sub></option>
                   <option>Haider Abbas</option>
                   <option>Muhammad Faisal</option>
                   <option>Nouman Aslam</option>
@@ -349,7 +349,7 @@
                   <option>Waleed Ahmad</option>
                   <option>Abdul Wahid</option>
                 </select>
-                <small class="float-right">Product dealer not listed here? <a href="#"data-toggle="modal" data-target="#addProductDealerModal">Add new</a> </small>
+                <small class="float-right">Product vendor not listed here? <a href="#"data-toggle="modal" data-target="#addProductDealerModal">Add new</a> </small>
               </div>
               <div class="form-group">
                 <label for="">Product Name</label>
@@ -409,14 +409,14 @@
         </div>
       </div>
     </div>
-    <!-- Add Product Vendor-->
-    <div class="modal fade" id="addProductVendorModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- Add Product Brand-->
+    <div class="modal fade" id="addProductBrandModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
           <div class="modal-header bg-primary text-white">
             <h5 class="modal-title" id="exampleModalLabel">
               <i class="fa fa-industry"></i>
-              Add Product Vendor
+              Add Product Brand
             </h5>
             <button class="close text-white" type="button" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">×</span>
@@ -425,8 +425,8 @@
           <form class="">
             <div class="modal-body">
               <div class="form-group">
-                <label for="">Product Vendor</label>
-                <input type="text" class="form-control" name="" value="" placeholder="Enter vendor/brand name here..." required>
+                <label for="">Product Brand</label>
+                <input type="text" class="form-control" name="" value="" placeholder="Enter brand name here..." required>
                 <small class="text-muted">Example: Nokia, AMB or MSI etc</small>
               </div>
               <div class="form-group">
@@ -437,20 +437,20 @@
             </div>
             <div class="modal-footer">
               <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-              <input type="submit" class="btn btn-primary" value="Add Vendor">
+              <input type="submit" class="btn btn-primary" value="Add Brand">
             </div>
           </form>
         </div>
       </div>
     </div>
-    <!-- Add Product Dealer -->
+    <!-- Add Product Vendor -->
     <div class="modal fade" id="addProductDealerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
           <div class="modal-header bg-primary text-white">
             <h5 class="modal-title" id="exampleModalLabel">
               <i class="fa fa-user"></i>
-              Add Products Dealer
+              Add Products Vendor
             </h5>
             <button class="close text-white" type="button" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">×</span>
@@ -459,18 +459,18 @@
           <form class="">
             <div class="modal-body">
               <div class="form-group">
-                <label for="">Dealer Name</label>
-                <input type="text" class="form-control" name="" value="" placeholder="Enter dealer's name here..." required>
+                <label for="">Vendor Name</label>
+                <input type="text" class="form-control" name="" value="" placeholder="Enter vendor's name here..." required>
                 <small class="text-muted">Example: Anees Ahmad, Faisal Hayat or Shahzaib Khan etc</small>
               </div>
               <div class="form-group">
                 <label for="">Phone Number</label>
-                <input type="text" class="form-control" name="" value="" placeholder="Enter dealer's phone number here...">
+                <input type="text" class="form-control" name="" value="" placeholder="Enter vendor's phone number here...">
                 <small class="text-muted">Example: 555-665-123</small>
               </div>
               <div class="form-group">
                 <label for="">Email Address</label>
-                <input type="email" class="form-control" name="" value="" placeholder="Enter dealer's email here...">
+                <input type="email" class="form-control" name="" value="" placeholder="Enter vendor's email here...">
                 <small class="text-muted">Example: ahmadanees02@gmail.com</small>
               </div>
               <div class="form-group">
@@ -481,7 +481,7 @@
             </div>
             <div class="modal-footer">
               <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-              <input type="submit" class="btn btn-primary" value="Add Vendor">
+              <input type="submit" class="btn btn-primary" value="Add Brand">
             </div>
           </form>
         </div>
