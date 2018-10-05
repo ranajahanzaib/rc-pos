@@ -539,7 +539,7 @@
                   <option>Cables & Chargers</option>
                   <option>Power Supplies</option>
                 </select>
-                <small class="float-right">Product type not listed here? <a href="#" data-toggle="modal" data-target="#addProductTypeModal">Add new</a> </small>
+                <small class="float-right">Product type not listed here? <a href="#"data-toggle="modal" data-target="#addProductTypeModal">Add new</a> </small>
               </div>
               <div class="form-group">
                 <label>Product Brand</label>
@@ -554,7 +554,7 @@
                   <option>Razer</option>
                   <option>MSI</option>
                 </select>
-                <small class="float-right">Products brand not listed here? <a href="#" data-toggle="modal" data-target="#addProductBrandModal">Add new</a> </small>
+                <small class="float-right">Products brand not listed here? <a href="#"data-toggle="modal" data-target="#addProductBrandModal">Add new</a> </small>
               </div>
               <div class="form-group">
                 <label>Product Vendor</label>
@@ -567,7 +567,7 @@
                   <option>Waleed Ahmad</option>
                   <option>Abdul Wahid</option>
                 </select>
-                <small class="float-right">Product vendor not listed here? <a href="#" data-toggle="modal" data-target="#addProductDealerModal">Add new</a> </small>
+                <small class="float-right">Product vendor not listed here? <a href="#"data-toggle="modal" data-target="#addProductDealerModal">Add new</a> </small>
               </div>
               <div class="form-group">
                 <label for="">Product Name</label>
@@ -575,9 +575,13 @@
                 <small class="text-muted">Be more specific with product names. Make sure its unique.</small>
               </div>
               <div class="form-group">
-                <label for="">Product Cost</label>
-                <input type="number" class="form-control" name="" value="" placeholder="Enter price at which this product is purchased at..." required>
-                <small class="text-muted">Adding original price helps you calculate profit by this product.</small>
+                <label for="">Product Price <small class="text-muted">(cost/item)</small> </label>
+                <input type="number" class="form-control" name="" value="" placeholder="Enter cost of product per item..." required>
+              </div>
+              <div class="form-group">
+                <label for="">Product Stock <small>(How many products are you adding in stock?)</small> </label>
+                <input type="number" class="form-control" name="" value="" placeholder="Enter number of items..." required>
+                <small class="text-muted">This will be used as product quantity in stock keeping unit.</small>
               </div>
               <div class="form-group">
                 <label for="">Description <small class="text-muted">(Optional)</small></label>
