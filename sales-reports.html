@@ -14,7 +14,7 @@
   </head>
   <body id="page-top">
     <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
-      <a class="navbar-brand mr-1" href="index.html">RC-PoS Software</a>
+      <a class="navbar-brand mr-1" href="index.html">Acix Sales Pro</a>
       <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fa fa-bars"></i>
       </button>
@@ -34,7 +34,6 @@
         <li class="nav-item dropdown no-arrow mx-1">
           <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fa fa-plus fa-fw"></i>
-            <span class="badge badge-danger">7</span>
           </a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="messagesDropdown">
             <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addSaleModal"> <i class="fa fa-money"></i> New Sale</a>
@@ -45,10 +44,10 @@
             <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addProductVendorModal"> <i class="fa fa-industry"></i> New Product Vendor</a>
           </div>
         </li>
-        <li class="nav-item dropdown no-arrow mx-1">
+        <li class="nav-item dropdown no-arrow ml-3">
           <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fa fa-bell fa-fw"></i>
-            <span class="badge badge-danger">9+</span>
+            <span class="badge badge-warning">9+</span>
+            <i class="fa fa-fw fa-bell"></i>
           </a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="alertsDropdown">
             <a class="dropdown-item" href="#">Action</a>
@@ -57,19 +56,7 @@
             <a class="dropdown-item" href="#">Something else here</a>
           </div>
         </li>
-        <li class="nav-item dropdown no-arrow mx-1">
-          <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fa fa-envelope fa-fw"></i>
-            <span class="badge badge-danger">7</span>
-          </a>
-          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="messagesDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown no-arrow">
+        <li class="nav-item dropdown no-arrow ml-3">
           <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fa fa-user-circle fa-fw"></i>
           </a>
@@ -193,7 +180,43 @@
               <li class="breadcrumb-item active">Blank Page</li>
             </ol>
             <!-- Page Content -->
-            <h1>Blank Page</h1>
+            <!-- Area Chart Example-->
+          <div class="card mb-3">
+            <div class="card-header">
+              <i class="fa fa-chart-area"></i>
+              Area Chart Example</div>
+            <div class="card-body">
+              <canvas id="myAreaChart" width="100%" height="30"></canvas>
+            </div>
+            <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+          </div>
+          <div class="row">
+            <div class="col-lg-8">
+              <div class="card mb-3">
+                <div class="card-header">
+                  <i class="fa fa-chart-bar"></i>
+                  Bar Chart Example</div>
+                <div class="card-body">
+                  <canvas id="myBarChart" width="100%" height="50"></canvas>
+                </div>
+                <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card mb-3">
+                <div class="card-header">
+                  <i class="fa fa-chart-pie"></i>
+                  Pie Chart Example</div>
+                <div class="card-body">
+                  <canvas id="myPieChart" width="100%" height="100"></canvas>
+                </div>
+                <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+              </div>
+            </div>
+          </div>
+          <p class="small text-center text-muted my-5">
+            <em>More chart examples coming soon...</em>
+          </p>
             <hr>
             <p>This is a great starting point for new custom pages.</p>
           </div>
@@ -502,6 +525,13 @@
       <script src="js/jquery.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
       <script src="js/jquery.easing.min.js"></script>
+      <script src="js/chart.min.js"></script>
+      <script src="js/jquery.dataTables.js"></script>
+      <script src="js/dataTables.bootstrap4.js"></script>
       <script src="js/rc-pos.min.js"></script>
+      <script src="js/datatables-demo.js"></script>
+      <script src="js/chart-area-demo.js"></script>
+      <script src="js/chart-bar-demo.js"></script>
+  <script src="js/chart-pie-demo.js"></script>
     </body>
   </html>
