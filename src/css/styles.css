@@ -376,3 +376,15 @@ body.sidebar-toggled footer.sticky-footer {
   background: #00a63f !important;
   border-color: #00a63f !important;
 }
+
+
+
+.no-text-decorations {
+  text-decoration: none;
+  background-color: white;
+}
+
+.no-text-decorations:active {
+  text-decoration: none;
+  background-color: white;
+}
