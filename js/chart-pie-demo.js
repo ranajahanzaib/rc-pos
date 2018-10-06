@@ -7,10 +7,10 @@ var ctx = document.getElementById("myPieChart");
 var myPieChart = new Chart(ctx, {
   type: 'pie',
   data: {
-    labels: ["Blue", "Red", "Yellow", "Green"],
+    labels: ["Routers", "Chargers & Cables", "USB Storage", "Display Monitors", "CPU", "Speakers", "Mouse & Pointing Devices", "Others"],
     datasets: [{
-      data: [12.21, 15.58, 11.25, 8.32],
-      backgroundColor: ['#007bff', '#dc3545', '#ffc107', '#28a745'],
+      data: [2.21, 4.58, 8.25, 16.32, 32.32, 64.32, 1.32, 2.32, 3.32, 4.32, 5.32],
+      backgroundColor: ['#d35400', '#00a63f', '#900C3F', '#2e4053', '#1a5276', '#f4d03f','#8e44ad','#DAF7A6','#34eb13','#eb1d13','#0a0101'],
     }],
   },
 });
