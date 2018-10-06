@@ -380,11 +380,13 @@ body.sidebar-toggled footer.sticky-footer {
 
 
 .no-text-decorations {
-  text-decoration: none;
+  text-decoration: none !important;
   background-color: white;
+  cursor: pointer;
 }
 
 .no-text-decorations:active {
   text-decoration: none;
   background-color: white;
+  cursor: pointer !important;
 }
