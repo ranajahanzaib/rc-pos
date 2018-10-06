@@ -4,7 +4,7 @@
 ```
 
 ### Description
-RC-PoS is a popular open source web application for point of sale systems. It is a responsive HTML template that is based on the CSS framework Bootstrap 4. It utilizes all of the Bootstrap components in its design and re-styles many commonly used plugins to create a consistent design that can be used as a user interface for backend applications. This template is based on a modular design, which allows it to be easily customized and built upon.
+RC-PoS is a popular open source web application template for point of sale systems. It is a responsive HTML template that is based on the CSS framework Bootstrap 4. It utilizes all of the Bootstrap components in its design and re-styles many commonly used plugins to create a consistent design that can be used as a user interface for backend applications. This template is based on a modular design, which allows it to be easily customized and built upon.
 
 
 ### Dependencies
