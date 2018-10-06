@@ -33,7 +33,7 @@ Check live demo [here](https://vruqa.github.io/rc-pos)
 ### License
 This software is licensed under the MIT License. [Learn more](https://github.com/vruqa/rc-pos/blob/master/LICENSE)
 
-*Copyright © 2013-2018 [Blackrock Digital, LLC](https://github.com/BlackrockDigital), 2018 [Vruqa Designs](https://github.com/vruqa), 2018 [Appzaib](https://github.com/appzaib). All rights reserved. *
+*Copyright © 2013-2018 [Blackrock Digital, LLC](https://github.com/BlackrockDigital), 2018 [Vruqa Designs](https://github.com/vruqa), 2018 [Appzaib](https://github.com/appzaib). All rights reserved.*
 
 
 ## Changelog
