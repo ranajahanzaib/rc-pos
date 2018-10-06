@@ -40,10 +40,26 @@
             <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addProductModal"> <i class="fa fa-tag"></i> New Product</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addProductTypeModal"> <i class="fa fa-tags"></i> New Product Type</a>
-            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addProductDealerModal"> <i class="fa fa-user"></i> New Product Vendor</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addProductVendorModal"> <i class="fa fa-user"></i> New Product Vendor</a>
             <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addProductBrandModal"> <i class="fa fa-industry"></i> New Product Brand</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addExpenseAccountModal"> <i class="fa fa-dollar"></i> New Expense Account</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown no-arrow mx-1">
+          <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-flash fa-fw"></i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="messagesDropdown">
+            <a class="dropdown-item" href="products.html"> <i class="fa fa-tag"></i> All Products</a>
+            <a class="dropdown-item" href="product-types.html"> <i class="fa fa-tags"></i> Product Types</a>
+            <a class="dropdown-item" href="product-vendors.html"> <i class="fa fa-user"></i> Product Vendors</a>
+            <a class="dropdown-item" href="product-brands.html"> <i class="fa fa-industry"></i> Product Brands</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="revenue.html"> <i class="fa fa-money"></i> Revenue</a>
+            <a class="dropdown-item" href="improvements.html"> <i class="fa fa-rocket"></i> Improvements</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="accounts.html"> <i class="fa fa-dollar"></i> Accounts</a>
           </div>
         </li>
         <li class="nav-item dropdown no-arrow ml-3">
@@ -149,7 +165,7 @@
             <a class="dropdown-item" href="product-types.html"> <i class="fa fa-tags"></i> Product Types</a>
             <div class="dropdown-divider"></div>
             <h6 class="dropdown-header">Dealers &amp; Brands</h6>
-            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addProductDealerModal"> <i class="fa fa-user"></i> Add New Dealer</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addProductVendorModal"> <i class="fa fa-user"></i> Add New Vendor</a>
             <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addProductBrandModal"> <i class="fa fa-industry"></i> Add New Brand</a>
           </div>
         </li>
@@ -179,9 +195,9 @@
             <!-- Breadcrumbs-->
             <ol class="breadcrumb">
               <li class="breadcrumb-item">
-                <a href="index.html">Dashboard</a>
+                <a href="index.html">Home</a>
               </li>
-              <li class="breadcrumb-item active">Blank Page</li>
+              <li class="breadcrumb-item active">Sales Reports</li>
             </ol>
             <!-- Page Content -->
             <!-- Area Chart Example-->
@@ -224,6 +240,7 @@
             <hr>
             <p>This is a great starting point for new custom pages.</p>
           </div>
+          <br><br><br>
           <!-- Sticky Footer -->
           <footer class="sticky-footer">
             <div class="container my-auto">
@@ -389,7 +406,7 @@
                     <option>Waleed Ahmad</option>
                     <option>Abdul Wahid</option>
                   </select>
-                  <small class="float-right">Product vendor not listed here? <a href="#"data-toggle="modal" data-target="#addProductDealerModal">Add new</a> </small>
+                  <small class="float-right">Product vendor not listed here? <a href="#"data-toggle="modal" data-target="#addProductVendorModal">Add new</a> </small>
                 </div>
                 <div class="form-group">
                   <label for="">Product Name</label>
@@ -502,7 +519,7 @@
         </div>
       </div>
       <!-- Add Product Vendor -->
-      <div class="modal fade" id="addProductDealerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal fade" id="addProductVendorModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header bg-primary text-white">
