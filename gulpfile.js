@@ -22,7 +22,7 @@ gulp.task('js', function() {
 
 // Move the fonts files into our /src/fonts folder
 gulp.task('fonts', function() {
-  return gulp.src(['node_modules/font-awesome/fonts/*.eot', 'node_modules/font-awesome/fonts/*.svg', 'node_modules/font-awesome/fonts/*.woff'])
+  return gulp.src(['node_modules/font-awesome/fonts/*.eot', 'node_modules/font-awesome/fonts/*.svg', 'node_modules/font-awesome/fonts/*.woff', 'node_modules/font-awesome/fonts/*.woff2'])
     .pipe(gulp.dest("src/fonts"))
     .pipe(browserSync.stream());
 });
