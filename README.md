@@ -24,13 +24,13 @@ RC-POS supports the following browsers:
 *Note: IE9 does not support transitions or animations. The template will function properly but it won't use animations/transitions on IE9.*
 
 ### Documentation
-Documentation can be found at https://vruqa.github.io/docs/rc-pos
+Documentation can be found at https://appzaib.github.io/docs/rc-pos
 
 ### Live Demo
-Check live demo [here](https://vruqa.github.io/rc-pos)
+Check live demo [here](https://appzaib.github.io/rc-pos)
 
 
 ### License
-This software is licensed under the MIT License. [Learn more](https://github.com/vruqa/rc-pos/blob/master/LICENSE)
+This software is licensed under the MIT License. [Learn more](https://github.com/appzaib/rc-pos/blob/master/LICENSE)
 
-*Copyright © 2013-2018 [Blackrock Digital, LLC](https://github.com/BlackrockDigital), 2018 [Vruqa Designs](https://github.com/vruqa), 2018 [Appzaib](https://github.com/appzaib). All rights reserved.*
+*Copyright © 2013-2018 [Blackrock Digital, LLC](https://github.com/BlackrockDigital), 2018 [appzaib Designs](https://github.com/appzaib), 2018 [Appzaib](https://github.com/appzaib). All rights reserved.*
